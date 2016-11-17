@@ -12,12 +12,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
     <style>
   body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
   }
-  h3, h4 {
+  h3 {
       margin: 10px 0 30px 0;
       letter-spacing: 10px;
       font-size: 20px;
@@ -28,7 +29,7 @@
     margin:auto;
 }
   .container {
-      padding: 80px 120px;
+      padding: 80px 0px;
   }
   .person {
       border: 10px solid transparent;
@@ -67,6 +68,11 @@
   .list-group-item:last-child {
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0;
+  }
+  .incentive {
+        background: #333;
+        padding-bottom: 25px;
+        margin: 10px 10px;
   }
   .thumbnail {
       padding: 0 0 15px 0;
@@ -166,349 +172,229 @@
     max-width: 100%;
     height: auto;
   }
-  
+  .social{
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+}
+
+.social a{
+        color: #000;
+        margin: 0 25px;
+        text-align: center;
+}
+
+.social a:hover{
+        color: #444;
+}
+.img-rounded:hover {
+        opacity: 0.5;
+}
+.pay-pal {
+	text-align: center;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#musicDiv {
+	margin:0 auto;
+	width: 700px;
+}
+@media only screen and (max-width: 750px) {
+	#musicDiv {
+		width:100%;
+	}
+}
 </style>
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#myPage">JZL Dream</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="#myPage">HOME</a>
-          </li>
-          <li>
-            <a href="#band">BAND</a>
-          </li>
-          <li>
-            <a href="#tour">TOUR</a>
-          </li>
-          <li>
-            <a href="#contact">CONTACT</a>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE</a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="#">Merchandise</a>
-              </li>
-              <li>
-                <a href="#">Extras</a>
-              </li>
-              <li>
-                <a href="#">Media</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators"></ol>
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/jzlAlbum.jpg" alt="JZL Album" width="1200" height="700" />
-      <div class="carousel-caption">
-        <h3>Empress of the DMV</h3>
-        <p>The atmosphere in New York is lorem ipsum.</p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/jzlAlbum2.jpg" alt="JZL Album 2" width="1200" height="700" />
-      <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago - A night we won't forget.</p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="img/jzlmodel.jpg" alt="JZL Model" width="1200" height="700" />
-      <div class="carousel-caption">
-        <h3>LA</h3>
-        <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
-      </div>
-    </div>
-  </div>
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="sr-only">Previous</span>
-  </a> 
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="sr-only">Next</span>
-  </a></div>
-  <!-- Container (About Section) -->
-  <div id="band" class="container text-center">
-    <h3>THE AWESOME EXPERIENCE OF JZL</h3>
-    <p>
-      <em>Empress of the DMV</em>
-    </p>
-    <p>This great nation's capital gives you its most treasured gift: The Empress. Join The Crew in supporting JZL as she begins
-    the promotional tour for her debut album, The Awesome Experience of JZL. With a combination of sultry beats, empowering lyrics,
-    and a classic message, this movement is gearing to rebirth the American brand of music. JZL produces music that is both
-    inclusive and inspirational. It tugs at the inner cravings for the hip-hop beats we all desire while also uplifting listeners
-    with the "Stay anchored, never lose sight of your dreams!" movement interlaced throughout numerous tracks.</p>
-    <br />
-    <video width="1200" controls="">
-    <source src="vid/jzlfund.mp4" type="video/mp4" />
-    <source src="mov_bbb.ogg" type="video/ogg" />Your browser does not support HTML5 video.</video>
-  </div>
-  <!-- Container (Get Involved Section) -->
-  <div id="tour" class="bg-1">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$10</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Download of new single &amp; Exclusive CrewMembersOnly wristband</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#myPage">JZL Dream</a>
         </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$25</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Digital download of album PLUS a physical copy of the CD &amp; Exclusive CrewMembersOnly wristband</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$35</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Digital Download, Physical Copy of album, Signed poster &amp; Exclusive CrewMembersOnly wristband</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$50</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Digital Download, Physical Copy of album, Signed poster &amp; signed Thank You note from JZL</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$75</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Blown Up/Laminated &amp; Signed Cover Artwork ( Comic ) &amp; CrewMembersOnly T-Shirt and wristband</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$75</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Everything with $50 &amp; Shout out on Social media of your choice and Exclusive CrewMembersOnly wristband</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#myPage">HOME</a>
+            </li>
+            <li>
+              <a href="#jzl">JZL</a>
+            </li>
+            <li>
+              <a href="#contribute">CONTRIBUTE</a>
+            </li>
+            <li>
+              <a href="#contact">CONTACT</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$100</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Tickets to the Musical Fundraiser Soiree - meet and greet JZL, witness an exclusive listening session & Never seen before visuals</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators"></ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/jzlAlbum.jpg" alt="JZL Album" width="1200" height="700" />
+        <div class="carousel-caption">
+          <h3>The AWESOME Experience of JZL</h3>
+          <p>CrewMembersOnly</p>
         </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$100</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p> Digital Download, Physical Copy of album, Signed poster & signed Thank You note from JZL, Exclusive CREWMEMBERSONLY T-shirt & wristband</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
+      </div>
+      <div class="item">
+        <img src="img/jzlAlbum2.jpg" alt="JZL Album 2" width="1200" height="700" />
+        <div class="carousel-caption">
+          <h3>Empress of the DMV</h3>
+          <p>CrewMembersOnly</p>
         </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$250</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Your name in an official music video behind the scenes credits</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$500</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Your logo in an official music video of your choice</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$1000</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Needs to be a lot shorter</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
-        </div>
-        <div class="col-md-2 col-sm-6">
-          <div class="service-item">
-            <h4>
-              <strong>$1500</strong>
-            </h4>
-            <img src="./img/question-mark.jpg" class="img-rounded" width="100" height="100" />
-            <p>Needs to be a lot shorter</p>
-            <!-- <a href="#" class="btn btn-dark">Learn More</a> -->
-          </div>
+      </div>
+      <div class="item">
+        <img src="img/jzlmodel.jpg" alt="JZL Model" width="1200" height="700" />
+        <div class="carousel-caption">
+          <h3>Stay anchored, never lose sight of your dreams!</h3>
+          <p>CrewMembersOnly</p>
         </div>
       </div>
     </div>
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">×</button>
-            <h4>Tickets</h4>
-          </div>
-          <div class="modal-body">
-            <form role="form">
-              <div class="form-group">
-              <label for="psw">Tickets, $23 per person</label> 
-              <input type="number" class="form-control" id="psw" placeholder="How many?" /></div>
-              <div class="form-group">
-              <label for="usrname">Send To</label> 
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email" /></div>
-              <button type="submit" class="btn btn-block">Pay</button>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">Cancel</button>
-            <p>Need 
-            <a href="#">help?</a></p>
-          </div>
-        </div>
-      </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="sr-only">Previous</span>
+    </a> 
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="sr-only">Next</span>
+    </a></div>
+    <!-- Container (About Section) -->
+    <div id="jzl" class="container text-center">
+      <h3>THE AWESOME EXPERIENCE OF JZL</h3>
+      <p>
+        <em>Empress of the DMV</em>
+      </p>
+      <p>This great nation's capital gives you its most treasured gift: The Empress. Join The Crew in supporting JZL as she begins
+      the promotional tour for her debut album, The Awesome Experience of JZL. With a combination of sultry beats, empowering
+      lyrics, and multigenerational messages, this movement has started the rebirth of hip-hop music.</p>
+      <br />
+      <video width="1200" controls="">
+      <source src="vid/jzlfund.mp4" type="video/mp4" />Your browser does not support HTML5 video.</video>
     </div>
-  </div>
-  <!-- Container (Contact Section) -->
-  <div id="contact" class="container">
-    <h3 class="text-center">Contact</h3>
-    <p class="text-center">
-      <em>We love our fans!</em>
-    </p>
-    <div class="row">
-      <div class="col-md-4">
-        <p>Fan? Drop a note.</p>
-        <p>Chicago, US</p>
-        <p>Phone: +00 1515151515</p>
-        <p>Email: mail@mail.com</p>
-      </div>
-      <div class="col-md-8">
-        <div class="row">
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required="" />
-          </div>
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required="" />
-          </div>
-        </div>
-        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+    <!-- Container (Get Involved Section) -->
+    <div id="contribute" class="bg-1">
+      <div class="container">
+        <p>The time to join The Crew is NOW!!! We're hitting the DMV/East Coast with a sound and lyrical combination that will
+        bring power and confidence back into our communities. The most important part of this step is the Promotional Tour for the
+        album. This tour will spark the movement. Look out 2017, because JZL and The Crew are taking over...but only if we prepare
+        properly. JZL will continue providing content for all those who desire her music and message of inspiration, but she needs
+        to grow her fan base in order to gain the necessary exposure to continue financing this movement.</p>
         <br />
         <div class="row">
-          <div class="col-md-12 form-group">
-            <button class="btn pull-right" type="submit">Send</button>
+          <div class="col-sm-4">
+            <div class="incentive">
+              <h4>CrewMembersOnly Wristband</h4>
+              <img src="./img/wristsq.jpg" class="img-rounded" width="200" height="200" />
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="incentive">
+              <h4>CrewMembersOnly Button</h4>
+              <img src="./img/crewsq.jpg" class="img-rounded" width="200" height="200" />
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="incentive">
+              <h4>CrewMembersOnly Album</h4>
+              <img src="./img/jzlAlbumsq.jpg" class="img-rounded" width="200" height="200" />
+            </div>
           </div>
         </div>
+		</br>
+			<div class="pay-pal">
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick" /> 
+          <input type="hidden" name="encrypted"
+          value="-----BEGIN PKCS7-----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-----END PKCS7----- " />
+          
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+          alt="PayPal - The safer, easier way to pay online!" /> 
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" /></form>
+        </div>
+		</br>
+        <ul>
+          <li>
+          <strong>$10</strong> - Free download of new single currently on itunes, tidal, etc. &amp; Exclusive CrewMembersOnly
+          wristband</li>
+          <li>
+          <strong>$25</strong> - Digital download of album PLUS a physical copy of the CD &amp; Exclusive CrewMembersOnly
+          wristband</li>
+          <li>
+          <strong>$35</strong> - Digital Download, Physical Copy of album, Signed poster &amp; Exclusive CrewMembersOnly
+          wristband</li>
+          <li>
+          <strong>$50</strong> - Digital Download, Physical Copy of album, Signed poster &amp; signed Thank You note from JZL</li>
+          <li>
+          <strong>$75</strong> - Blown Up/Laminated &amp; Signed Cover Artwork ( Comic ) &amp; CrewMembersOnly T-Shirt and
+          wristband</li>
+          <li>
+          <strong>$75</strong> - Digital Download, Physical Copy of album, Signed poster &amp; signed Thank You note from JZL,
+          Shout out on Facebook (or Social media of your choice) and Exclusive CrewMembersOnly wristband</li>
+          <li>
+          <strong>$100</strong> - Tickets to the Musical Fundraiser Soiree - meet and greet JZL, witness an exclusive listening
+          session &amp; Never seen before visuals - party info disclosed upon purchase</li>
+          <li>
+          <strong>$100</strong> - Digital Download, Physical Copy of album, Signed poster &amp; signed Thank You note from JZL,
+          Exclusive CREWMEMBERSONLY T-shirt &amp; wristband</li>
+          <li>
+          <strong>$250</strong> - Your name in an official music video behind the scenes credits</li>
+          <li>
+          <strong>$500</strong> - Your logo in an official music video of your choice</li>
+          <li>
+          <strong>$1000</strong> - Digital Download, Physical Copy of album, Signed poster &amp; signed Thank You note from JZL,
+          Exclusive CREWMEMBERSONLY T-shirt , wristband and Your logo on JZLdream.com under "Crew Members Only" page showcasing
+          sponsors for 1 year</li>
+          <li>
+          <strong>$1500</strong> - Private JZL Performance PLEASE be flexible with us in scheduling a date as we work it in to our
+          tour schedule. You are more than welcome to invite as many people to this show as you'd like and charge them admission to
+          offset costs. Also, if beyond a 3 hour drive from Washington, DC we'd ask for help paying for travel (gas)</li>
+        </ul>
+		</br>
       </div>
     </div>
-    <br />
-    <h3 class="text-center">From The Blog</h3>
-    <ul class="nav nav-tabs">
-      <li class="active">
-        <a data-toggle="tab" href="#home">Mike</a>
-      </li>
-      <li>
-        <a data-toggle="tab" href="#menu1">Chandler</a>
-      </li>
-      <li>
-        <a data-toggle="tab" href="#menu2">Peter</a>
-      </li>
-    </ul>
-    <div class="tab-content">
-      <div id="home" class="tab-pane fade in active">
-        <h2>Mike Ross, Manager</h2>
-        <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
-      </div>
-      <div id="menu1" class="tab-pane fade">
-        <h2>Chandler Bing, Guitarist</h2>
-        <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
-      </div>
-      <div id="menu2" class="tab-pane fade">
-        <h2>Peter Griffin, Bass player</h2>
-        <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
-      </div>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+      <h3 class="text-center">Join The Crew</h3>
+      <p class="text-center">
+        <em>Stay Anchored!</em>
+      </p>
+      <a href="https://goo.gl/forms/cTyeTa2aaTqiTBUs1" target="_blank" class="btn btn-lg btn-block">JOIN</a>
+      <br />
+	  <div id="musicParent">
+		<div id="musicDiv">
+			<iframe id="iframebandcamp" style="border: 0; width: 100%; height: 120px; display: block;" src="https://bandcamp.com/EmbeddedPlayer/album=1699754930/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://jzlmusic.bandcamp.com/album/the-awesome-experience-of-jzl-vol-1">The AWESOME Experience  of JZL Vol.1 by JZL</a></iframe>
+		</div>
+	</div>
     </div>
-  </div>
-  <div id="googleMap"></div>
-  <!-- Add Google Maps -->
-  <script src="https://maps.googleapis.com/maps/api/js"></script> 
-  <script>
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-
-function initialize() {
-var mapProp = {
-center:myCenter,
-zoom:12,
-scrollwheel:false,
-draggable:false,
-mapTypeId:google.maps.MapTypeId.ROADMAP
-};
-
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker = new google.maps.Marker({
-position:myCenter,
-});
-
-marker.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script> 
-  <!-- Footer -->
-  <footer class="text-center">
-    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP"></a>
-    <br />
-    <br />
-  </footer>
-  <script>
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="social">
+      <a href="https://www.facebook.com/itsjzl" class="fa-stack fa-lg" target="_blank">
+      <i class="fa fa-circle fa-stack-2x"></i> 
+      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i></a> 
+      <a href="https://twitter.com/jzl_eme" class="fa-stack fa-lg" target="_blank">
+      <i class="fa fa-circle fa-stack-2x"></i> 
+      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i></a> 
+      <a href="https://www.instagram.com/jzl_eme/" class="fa-stack fa-lg" target="_blank">
+      <i class="fa fa-circle fa-stack-2x"></i> 
+      <i class="fa fa-instagram fa-stack-1x fa-inverse"></i></a></div>
+      <br />
+      <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+    </footer>
+    <script>
 $(document).ready(function(){
   // Initialize Tooltip
   $('[data-toggle="tooltip"]').tooltip();
@@ -537,5 +423,6 @@ $(document).ready(function(){
     } // End if
   });
 })
-</script></body>
+</script>
+  </body>
 </html>
